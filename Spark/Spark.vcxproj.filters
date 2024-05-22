@@ -43,6 +43,18 @@
     <Filter Include="Spark\Source Files\Maths">
       <UniqueIdentifier>{bea89827-0573-40f6-a126-491f00ef309a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Spark\Header Files\Core">
+      <UniqueIdentifier>{21c9d223-a2c2-433e-a887-e81119c7d4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spark\Source Files\Core">
+      <UniqueIdentifier>{ec2736f8-1c48-492e-a22b-111aa902086d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spark\Header Files\Gameplay">
+      <UniqueIdentifier>{5406f683-6595-4eca-9285-a30f9264450b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spark\Source Files\Gameplay">
+      <UniqueIdentifier>{74125e62-c0cc-480e-9f18-0b315e39f41c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Xml Include="assets\config.xml">
@@ -80,6 +92,18 @@
     <ClCompile Include="Spark\Maths\MathFunctions.cpp">
       <Filter>Spark\Source Files\Maths</Filter>
     </ClCompile>
+    <ClCompile Include="Spark\Core\Application.cpp">
+      <Filter>Spark\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Spark\Gameplay\GameInstance.cpp">
+      <Filter>Spark\Source Files\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Spark\Core\Screen.cpp">
+      <Filter>Spark\Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TestGameInstance.cpp">
+      <Filter>Game\Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Spark\Utility\Config.h">
@@ -108,6 +132,21 @@
     </ClInclude>
     <ClInclude Include="Spark\Maths\MathFunctions.h">
       <Filter>Spark\Header Files\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Spark\Core\Application.h">
+      <Filter>Spark\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Spark\Common.h">
+      <Filter>Spark\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spark\Gameplay\GameInstance.h">
+      <Filter>Spark\Header Files\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Spark\Core\Screen.h">
+      <Filter>Spark\Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\TestGameInstance.h">
+      <Filter>Game\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
