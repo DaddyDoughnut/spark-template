@@ -10,5 +10,12 @@
     <Category title="application">
       <Value name="title" value="Spark Game" type="string"/>
     </Category>
+	<Category title="world">
+		<Value name="offsetFactor" value="0.5,0.5" type="vector"/>
+		<Value name="scale" value="16" type="float"/>
+	</Category>
+	<Category title="player">
+		<Value name="speed" value="5" type="float"/>	  
+	</Category>
   </Categories>
 </Config>
